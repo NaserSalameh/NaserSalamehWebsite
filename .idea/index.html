@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Press and Hold</title>
+    <style>
+
+        body {
+            background-color: #222222;
+        }
+
+
+        #item {
+
+            background-image: url(dark/images/logo.png);
+            background-repeat: no-repeat;
+
+            --scale-value: 1;
+
+            width: 180px;
+            height: 180px;
+            background-color: #222222;
+            border-radius: 50%;
+            transform: scale3d(var(--scale-value), var(--scale-value), 1);
+            transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275) .2s;
+
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -50px;
+        }
+
+        #item:hover {
+            background-color: #222222;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+
+<body>
+<div id="particles-js">
+    <div id="item"></div>
+</div>
+
+<!-- scripts -->
+<script src="dark/loadButton/particles.js"></script>
+<script src="dark/loadButton/app.js"></script>
+
+<script>
+    // The item (or items) to press and hold on
+    var item = document.querySelector("#item");
+
+    var timerID;
+    var counter = 0;
+
+    var pressHoldEvent = new CustomEvent("pressHold");
+
+    // Increase or decreae value to adjust how long
+    // one should keep pressing down before the pressHold
+    // event fires
+    var pressHoldDuration = 50;
+
+    // Listening for the mouse and touch events
+    item.addEventListener("mousedown", pressingDown, false);
+    item.addEventListener("mouseup", notPressingDown, false);
+    item.addEventListener("mouseleave", notPressingDown, false);
+
+    item.addEventListener("touchstart", pressingDown, false);
+    item.addEventListener("touchend", notPressingDown, false);
+
+    // Listening for our custom pressHold event
+    item.addEventListener("pressHold", doSomething, false);
+
+    function pressingDown(e) {
+        // Start the timer
+        requestAnimationFrame(timer);
+
+        e.preventDefault();
+
+        console.log("Pressing!");
+    }
+
+    function notPressingDown(e) {
+        // Stop the timer
+        cancelAnimationFrame(timerID);
+        counter = 0;
+
+        item.style.setProperty("--scale-value", 1);
+
+        console.log("Not pressing!");
+    }
+
+    //
+    // Runs at 60fps when you are pressing down
+    //
+    function timer() {
+        console.log("Timer tick!");
+
+        if (counter < pressHoldDuration) {
+            timerID = requestAnimationFrame(timer);
+            counter++;
+
+            item.style.setProperty("--scale-value", 1 + counter / 50);
+
+        } else {
+            console.log("Press threshold reached!");
+            item.dispatchEvent(pressHoldEvent);
+        }
+    }
+
+    function doSomething(e) {
+        console.log("pressHold event fired!");
+        window.location.replace("dark/dark.html");
+    }
+
+
+
+</script>
+</body>
+
+</html>
