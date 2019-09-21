@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
 <style>
     body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     .w3-row-padding img {margin-bottom: 12px}
@@ -46,7 +45,7 @@
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar" >
     <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
         <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
         <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
@@ -65,46 +64,80 @@
     </header>
 
     <!-- About Section -->
-    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
         <h2 class="w3-text-light-grey">My Name</h2>
         <hr style="width:200px" class="w3-opacity">
         <p>My name is Naser Salameh. I am a Computer Science Student in the University of Southampton. I define myself as Consistently Inconsistent,
            as I am consistently striving to challenge myself and improve, and I never limit myself to any constraints.
         </p>
-        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-        <p class="w3-wide">Programming</p>
-        <div class="w3-white">
-            <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-        </div>
-        <p class="w3-wide">System Design</p>
-        <div class="w3-white">
-            <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-        </div>
-        <p class="w3-wide">Web Dev</p>
-        <div class="w3-white">
-            <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-        </div><br>
 
-        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">3+</span><br>
-                Open Projects
-            </div>
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">5+</span><br>
-                Completed Projects
-            </div>
-            <!--
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">89+</span><br>
-                Happy Clients
-            </div>
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">150+</span><br>
-                Meetings
-            </div>
-            -->
-        </div>
+        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        <hr style="width:200px" class="w3-opacity">
+        <br><br>
+
+        <link rel="stylesheet" href="popMenu/popUpStylesheet.css">
+        <nav class="menu" style="display: inline-block; padding-right:200px;">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="programming-menu" />
+            <label class="menu-open-button" for="programming-menu">
+                <p class="w3-wide">Programming</p>
+            </label>
+            <a class="menu-item transparent"> Java </a>
+            <a class="menu-item transparent"> </a>
+            <a class="menu-item transparent"> C++ </a>
+            <a class="menu-item transparent"> </a>
+            <a class="menu-item transparent"> HTML </a>
+
+        </nav>
+
+        <nav class="menu" style="display: inline-block; padding-left:100px; padding-right:200px;">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="system-menu" />
+            <label class="menu-open-button" for="system-menu">
+                <p class="w3-wide">System&nbspDesign</p>
+            </label>
+            <a class="menu-item transparent"> Java </a>
+            <a class="menu-item transparent"> </a>
+            <a class="menu-item transparent"> C++ </a>
+            <a class="menu-item transparent"> </a>
+            <a class="menu-item transparent"> HTML </a>
+
+        </nav>
+
+        <nav class="menu" style="display: inline-block; padding-left:100px; padding-right:200px;">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="tools-menu" />
+            <label class="menu-open-button" for="tools-menu">
+                <p class="w3-wide">Tools</p>
+            </label>
+            <a class="menu-item transparent" style="margin-left: 10px"> Java </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> C++ </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> HTML </a>
+
+        </nav>
+
+        <nav class="menu" style="display: inline-block;">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="other-menu" />
+            <label class="menu-open-button" for="other-menu">
+                <p class="w3-wide">Other</p>
+            </label>
+            <a class="menu-item transparent" style="margin-left: 10px"> Java </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> C++ </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> </a>
+            <a class="menu-item transparent" style="margin-left: 10px"> HTML </a>
+
+        </nav>
+
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+            <a href="Naser%20Salameh%20CV.pdf" download><i class="fa fa-download"></i> Download Resume</a>
+        </button>
+    </div>
+    <!-- End About Section -->
+
+    <!-- Projects Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="projects">
+        <h3 class="w3-padding-16 w3-text-light-grey">My Projects</h3>
+        <hr style="width:200px" class="w3-opacity">
         <!-- Github Section-->
         <script
                 src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
@@ -123,17 +156,23 @@
             new GitHubCalendar(".calendar", "Naser Salameh");
         </script>
 
-        <button class="w3-button w3-light-grey w3-padding-large w3-section">
-            <i class="fa fa-download"></i> Download Resume
-        </button>
-        <!-- End About Section -->
-    </div>
 
+        <br><br>
+        <h3 class="w3-padding-16 w3-text-light-grey">Yearly Projects Goal</h3>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+        </div><br>
 
-    <!-- Portfolio Section -->
-    <div class="w3-padding-64 w3-content" id="projects">
-        <h2 class="w3-text-light-grey">My Projects</h2>
-        <hr style="width:200px" class="w3-opacity">
+        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">3+</span><br>
+                Open Projects
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">5+</span><br>
+                Completed Projects
+            </div>
+        </div>
 
         <!-- Grid for projects -->
         <div class="w3-row-padding" style="margin:0 -16px">
@@ -155,7 +194,7 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="contact">
         <h2 class="w3-text-light-grey">Contact Me</h2>
         <hr style="width:200px" class="w3-opacity">
 
@@ -184,9 +223,6 @@
     <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
         <i class="fa fa-facebook-official w3-hover-opacity"></i>
         <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
         <i class="fa fa-linkedin w3-hover-opacity"></i>
         <!-- End footer -->
     </footer>

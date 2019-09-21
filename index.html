@@ -11,13 +11,13 @@
         }
 
         #rectangle {
-            height: 10px;
+            height: .5px;
             width: 10px;
 
             --scale-value: 0.001;
             transform: scaleY(var(--scale-value));
 
-            box-shadow: 0px 0px 20px 10px #00a2a2;
+            box-shadow: 0px 0px 3px .5px #00a2a2;
 
             background-color: #00a2a2;
             position: absolute;
@@ -40,7 +40,6 @@
             margin-top: -50px;
             margin-left: -100px;
         }
-
 
     </style>
 </head>
@@ -66,7 +65,7 @@
 
     var pressHoldEvent = new CustomEvent("pressHold");
 
-    // Increase or decreae value to adjust how long
+    // Increase or decrease value to adjust how long
     // one should keep pressing down before the pressHold
     // event fires
     var pressHoldDuration = 50;
@@ -107,11 +106,12 @@
     function timer() {
         console.log("Timer tick!");
 
+
         if (counter < pressHoldDuration) {
             timerID = requestAnimationFrame(timer);
             counter++;
 
-            rectangle.style.setProperty("--scale-value",1+counter/15);
+            rectangle.style.setProperty("--scale-value",1+counter);
         } else {
             console.log("Press threshold reached!");
             space.dispatchEvent(pressHoldEvent);
@@ -122,8 +122,6 @@
         console.log("pressHold event fired!");
         window.location.replace("dark/dark.html");
     }
-
-
 
 </script>
 </body>
