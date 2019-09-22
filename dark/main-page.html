@@ -75,7 +75,7 @@
         <hr style="width:200px" class="w3-opacity">
         <br><br>
 
-        <link rel="stylesheet" href="popMenu/popUpStylesheet.css">
+        <link rel="stylesheet" href="pop-menu/popUpStylesheet.css">
         <nav class="menu" style="display: inline-block; padding-right:200px;">
             <input type="checkbox" href="#" class="menu-open" name="menu-open" id="programming-menu" />
             <label class="menu-open-button" for="programming-menu">
@@ -138,6 +138,57 @@
     <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="projects">
         <h3 class="w3-padding-16 w3-text-light-grey">My Projects</h3>
         <hr style="width:200px" class="w3-opacity">
+
+        <!-- Scripts for codeWindow-->
+        <link rel="stylesheet" href="code-window/styles/darcula.css">
+        <script src="code-window/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        <!-- Stock Market Suite -->
+        <h3 class="w3-padding-16 w3-text-light-grey">Stock Market Suite</h3>
+        <pre><code class="java">
+                    public class StockMarketSuite{
+                        private String name = Stock Market Suite;
+                        private String description = Simulates Stock Market prices and Companies Historical Data
+                                                    using the Yahoo Finance API;
+                        private float version = 1.0;
+                        private String latestVersionDetails = Fully functional Stock Market Current Price Getter
+                                                              + Historical Data Storage;
+                        private String futureVersionsScope = Price Anomalies Detection, Finance news sites
+                                                             Sentiment Analyser.
+                    }
+        </code></pre>
+
+        <hr style="width:200px" class="w3-opacity">
+
+        <!-- Torrent Downloader-->
+        <h3 class="w3-padding-16 w3-text-light-grey">Torrent Downloader</h3>
+        <pre><code class="java">
+                    public class TorrentDownloaderProject{
+                        private String name = Torrent Downloader;
+                        private String description = Scrapes HTTPs and Downloads bulk and individual torrents;
+                        private float version = 1.0;
+                        private String latestVersionDetails = Fully functional Anime Torrents Downloader.
+                        private String futureVersionsScope = Different Torrent Types.
+                    }
+                </code></pre>
+
+        <hr style="width:200px" class="w3-opacity">
+
+        <!-- DnD Suite -->
+        <h3 class="w3-padding-16 w3-text-light-grey">DnD Suite</h3>
+        <pre><code class="java">
+                    public class DnDSuite{
+                        private String name = DnD Suite;
+                        private String description = Full DnD Suite that covers All DnD Needs;
+                        private float version = 1.0;
+                        private String latestVersionScope = Fully Functional Suite.
+                        private String futureVersionsScope = DiceRoller Animations.
+                    }
+                </code></pre>
+
+        <hr style="width:200px" class="w3-opacity">
+
         <!-- Github Section-->
         <script
                 src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
@@ -174,22 +225,6 @@
             </div>
         </div>
 
-        <!-- Grid for projects -->
-        <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-half">
-                <img src="/w3images/wedding.jpg" style="width:100%">
-                <img src="/w3images/rocks.jpg" style="width:100%">
-                <img src="/w3images/sailboat.jpg" style="width:100%">
-            </div>
-
-            <div class="w3-half">
-                <img src="/w3images/underwater.jpg" style="width:100%">
-                <img src="/w3images/chef.jpg" style="width:100%">
-                <img src="/w3images/wedding.jpg" style="width:100%">
-                <img src="/w3images/p6.jpg" style="width:100%">
-            </div>
-            <!-- End photo grid -->
-        </div>
         <!-- End Portfolio Section -->
     </div>
 
@@ -205,13 +240,13 @@
         </div><br>
         <p>Lets get in touch. Send me a message:</p>
 
-        <form action="/action_page.php" target="_blank">
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+        <form action="form-to-email.php" method="post">
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="name"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="visitor_email"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="subject"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="message"></p>
             <p>
-                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                <button class="w3-button w3-light-grey w3-padding-large" type="submit" value="Submit">
                     <i class="fa fa-paper-plane"></i> SEND MESSAGE
                 </button>
             </p>
@@ -221,9 +256,10 @@
 
     <!-- Footer -->
     <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <a href="https://github.com/NaserSalameh"><i class="fa fa-github w3-hover-opacity"></i></a>
+        <a href="https://www.facebook.com/NaserSalameh97"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/nasersalameh/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/naser-salameh97/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
         <!-- End footer -->
     </footer>
 
