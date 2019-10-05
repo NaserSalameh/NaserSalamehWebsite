@@ -14,18 +14,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1848">
-              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loadButton/particles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3633">
+            <state relative-caret-position="3740">
               <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -37,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loadButton/particles.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="850">
+              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,17 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loadButton/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
+            <state relative-caret-position="1343">
               <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loadButton/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -67,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dark/main-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+            <state relative-caret-position="209">
+              <caret line="134" column="55" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -107,29 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dark/code-window/styles/darcula.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dark/code-window/highlight.pack.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="29758" selection-start-line="1" selection-start-column="29758" selection-end-line="1" selection-end-column="29758" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dark/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="150" column="69" selection-start-line="150" selection-start-column="53" selection-end-line="150" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -167,9 +140,12 @@
       <find>w3-wide</find>
       <find>open</find>
       <find>w3-padding-64</find>
-      <find>menu-item</find>
       <find>w3-content</find>
       <find>w3-padding</find>
+      <find>transpa</find>
+      <find>menu-item</find>
+      <find>download</find>
+      <find>w3-button</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -180,7 +156,6 @@
         <option value="$PROJECT_DIR$/dark/stylesheets/github-calendar.css" />
         <option value="$PROJECT_DIR$/dark/github-calendar.css" />
         <option value="$PROJECT_DIR$/dark/popMenu/popUpStylesheet.css" />
-        <option value="$PROJECT_DIR$/dark/style.css" />
         <option value="$PROJECT_DIR$/dark/dark.html" />
         <option value="$PROJECT_DIR$/dark/form-to-email.php" />
         <option value="$PROJECT_DIR$/dark/code-window/styles/darcula.css" />
@@ -188,15 +163,17 @@
         <option value="$PROJECT_DIR$/loadButton/particles.js" />
         <option value="$PROJECT_DIR$/loadButton/particles.json" />
         <option value="$PROJECT_DIR$/loadButton/style.css" />
-        <option value="$PROJECT_DIR$/dark/main-page.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/loadButton/app.js" />
+        <option value="$PROJECT_DIR$/dark/main-page.html" />
+        <option value="$PROJECT_DIR$/dark/style.css" />
+        <option value="$PROJECT_DIR$/dark/pop-menu/popUpStylesheet.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="338" />
-    <option name="y" value="-37" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="337" />
+    <option name="y" value="-38" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -205,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,12 +198,19 @@
             <path>
               <item name="NaserSalamehWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="NaserSalamehWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="dark" type="462c0819:PsiDirectoryNode" />
+              <item name="pop-menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NaserSalamehWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NaserSalamehWebsite" type="462c0819:PsiDirectoryNode" />
               <item name="loadButton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.main-page.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NaserSalamehWebsite/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -275,8 +258,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.main-page.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -293,18 +276,19 @@
       <workItem from="1568378104219" duration="5027000" />
       <workItem from="1568388663749" duration="605000" />
       <workItem from="1569060403464" duration="27344000" />
-      <workItem from="1570124805931" duration="4524000" />
+      <workItem from="1570124805931" duration="5003000" />
+      <workItem from="1570212665557" duration="1701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37500000" />
+    <option name="totallyTimeSpent" value="39680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20201342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -374,13 +358,6 @@
         <state relative-caret-position="-51" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dark/pop-menu/popUpStylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dark/code-window/styles/a11y-dark.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -391,6 +368,39 @@
     <entry file="file://$PROJECT_DIR$/dark/code-window/styles/default.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/loadButton/load-button.html" />
+    <entry file="file://$PROJECT_DIR$/hold-Button.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadButton/particles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadButton/particles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadButton/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dark/form-to-email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -398,48 +408,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dark/code-window/styles/darcula.css">
+    <entry file="file://$PROJECT_DIR$/loadButton/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dark/code-window/highlight.pack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29758" selection-start-line="1" selection-start-column="29758" selection-end-line="1" selection-end-column="29758" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dark/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="150" column="69" selection-start-line="150" selection-start-column="53" selection-end-line="150" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/load-button.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hold-Button.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dark/main-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        <state relative-caret-position="209">
+          <caret line="134" column="55" selection-start-line="134" selection-start-column="47" selection-end-line="134" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -468,37 +450,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/dark/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        <state relative-caret-position="209">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/particles.json">
+    <entry file="file://$PROJECT_DIR$/dark/code-window/highlight.pack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="1" column="29758" selection-start-line="1" selection-start-column="29758" selection-end-line="1" selection-end-column="29758" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/particles.js">
+    <entry file="file://$PROJECT_DIR$/dark/pop-menu/popUpStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3633">
-          <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="-505">
+          <caret line="229" column="31" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/app.js">
+    <entry file="file://$PROJECT_DIR$/dark/code-window/styles/darcula.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
