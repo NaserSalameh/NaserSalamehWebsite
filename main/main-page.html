@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 
 <html>
-<title>Naser Salameh Website</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
 
-<style>
-    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-    .w3-row-padding img {margin-bottom: 12px}
-    /* Set the width of the sidebar to 120px */
-    .w3-sidebar {width: 120px;background: #222222;}
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {margin-left: 120px}
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
+    <title>Naser Salameh Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/favicon.ico">
+
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {width: 120px;background: #222222;}
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {margin-left: 120px}
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+</head>
 
 
 <body class="w3-black">
@@ -35,7 +39,7 @@
         <p>ABOUT</p>
     </a>
     <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-        <i class="fa fa-eye w3-xxlarge"></i>
+        <i class="fa fa-code w3-xxlarge"></i>
         <p>PROJECTS</p>
     </a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
@@ -76,64 +80,76 @@
         <br><br>
 
         <link rel="stylesheet" href="pop-menu/popUpStylesheet.css">
-        <nav class="menu" style="display: inline-block; padding-right:200px;">
-            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="programming-menu" />
-            <label class="menu-open-button" for="programming-menu">
-                <p class="w3-wide">Programming</p>
-            </label>
-            <a class="menu-item transparent"> Java </a>
-            <a class="menu-item transparent"> </a>
-            <a class="menu-item transparent"> C++ </a>
-            <a class="menu-item transparent"> </a>
-            <a class="menu-item transparent"> HTML </a>
+        <!-- Skills pop-up on large screens -->
+        <div class="w3-hide-small">
+            <nav class="menu" style="display: inline-block; padding-right:200px;">
+                <input type="checkbox" href="#" class="menu-open" name="menu-open" id="programming-menu" />
+                <label class="menu-open-button" for="programming-menu">
+                    <p class="w3-wide">Programming</p>
+                </label>
+                <a class="menu-item transparent"> Java </a>
+                <a class="menu-item transparent"> </a>
+                <a class="menu-item transparent"> C++ </a>
+                <a class="menu-item transparent"> </a>
+                <a class="menu-item transparent"> HTML </a>
 
-        </nav>
+            </nav>
 
-        <nav class="menu" style="display: inline-block; padding-left:100px; padding-right:200px;">
-            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="system-menu" />
-            <label class="menu-open-button" for="system-menu">
-                <p class="w3-wide">System&nbspDesign</p>
-            </label>
-            <a class="menu-item transparent"> </a>
-            <a class="menu-item transparent"> Iterative </a>
-            <a class="menu-item transparent"> </a>
-            <a class="menu-item transparent"> Agile </a>
-            <a class="menu-item transparent"> </a>
-            <a class="menu-item transparent"> Adaptive </a>
+            <nav class="menu" style="display: inline-block; padding-left:100px; padding-right:200px;">
+                <input type="checkbox" href="#" class="menu-open" name="menu-open" id="system-menu" />
+                <label class="menu-open-button" for="system-menu">
+                    <p class="w3-wide">System&nbspDesign</p>
+                </label>
+                <a class="menu-item transparent"> </a>
+                <a class="menu-item transparent"> Iterative </a>
+                <a class="menu-item transparent"> </a>
+                <a class="menu-item transparent"> Agile </a>
+                <a class="menu-item transparent"> </a>
+                <a class="menu-item transparent"> Adaptive </a>
 
-        </nav>
+            </nav>
 
-        <nav class="menu" style="display: inline-block; padding-left:100px; padding-right:200px;">
-            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="tools-menu" />
-            <label class="menu-open-button" for="tools-menu">
-                <p class="w3-wide">Tools</p>
-            </label>
-            <a class="menu-item transparent" style="margin-left: 10px">IntelliJ </a>
-            <a class="menu-item transparent" style="margin-left: 10px"> </a>
-            <a class="menu-item transparent" style="margin-left: 10px">Unity </a>
-            <a class="menu-item transparent" style="margin-left: 10px"> </a>
-            <a class="menu-item transparent" style="margin-left: 10px">Visual</a>
+            <nav class="menu" style="display: inline-block; padding-left:100px; padding-right:200px;">
+                <input type="checkbox" href="#" class="menu-open" name="menu-open" id="tools-menu" />
+                <label class="menu-open-button" for="tools-menu">
+                    <p class="w3-wide">Tools</p>
+                </label>
+                <a class="menu-item transparent" style="margin-left: 10px">IntelliJ </a>
+                <a class="menu-item transparent" style="margin-left: 10px"> </a>
+                <a class="menu-item transparent" style="margin-left: 10px">Unity </a>
+                <a class="menu-item transparent" style="margin-left: 10px"> </a>
+                <a class="menu-item transparent" style="margin-left: 10px">Visual</a>
 
-        </nav>
+            </nav>
 
-        <nav class="menu" style="display: inline-block;">
-            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="other-menu" />
-            <label class="menu-open-button" for="other-menu">
-                <p class="w3-wide">Other</p>
-            </label>
-            <a class="menu-item transparent" style="margin-left: 10px"> </a>
-            <a class="menu-item transparent" style="margin-left: 8px"> Trilingual </a>
-            <a class="menu-item transparent" style="margin-left: 10px"> </a>
-            <a class="menu-item transparent" style="margin-left: 8px"> Persevere </a>
-            <a class="menu-item transparent" style="margin-left: 10px"> </a>
-            <a class="menu-item transparent" style="margin-left: 8px"> Curious </a>
+            <nav class="menu" style="display: inline-block;">
+                <input type="checkbox" href="#" class="menu-open" name="menu-open" id="other-menu" />
+                <label class="menu-open-button" for="other-menu">
+                    <p class="w3-wide">Other</p>
+                </label>
+                <a class="menu-item transparent" style="margin-left: 10px"> </a>
+                <a class="menu-item transparent" style="margin-left: 8px"> Trilingual </a>
+                <a class="menu-item transparent" style="margin-left: 10px"> </a>
+                <a class="menu-item transparent" style="margin-left: 8px"> Persevere </a>
+                <a class="menu-item transparent" style="margin-left: 10px"> </a>
+                <a class="menu-item transparent" style="margin-left: 8px"> Curious </a>
 
-        </nav>
+            </nav>
+        </div>
 
+        <!-- Skills pop-up on small screens -->
+        <div class="w3-hide-large w3-hide-medium">
+            <p class="w3-wide w3-hover-opacity">Programming</p>
+            <p class="w3-wide w3-hover-opacity">System&nbspDesign</p>
+            <p class="w3-wide w3-hover-opacity">Tools</p>
+            <p class="w3-wide w3-hover-opacity">Other</p>
+        </div>
         <br><br>
+
         <button class="w3-button w3-light-grey w3-padding-large w3-section">
             <a href="Naser%20Salameh%20CV.pdf" download><i class="fa fa-download"></i> Download Resume</a>
         </button>
+
     </div>
     <!-- End About Section -->
 
@@ -148,6 +164,7 @@
         <script>hljs.initHighlightingOnLoad();</script>
 
         <!-- Stock Market Suite -->
+        <i class="fa fa-chart-line w3-xxlarge"></i>
         <h3 class="w3-padding-16 w3-text-light-grey">Stock Market Suite</h3>
         <pre><code class="java">
                     public class StockMarketSuite{
@@ -195,12 +212,10 @@
 
         <hr style="width:200px" class="w3-opacity">
 
-        <!-- Github Section-->
-        <script
-                src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
-        >
-        </script>
-        <link rel="stylesheet" href="github-calendar.css">
+        <!-- Github Section, Hidden on small-->
+        <div class="w3-hide-small">
+        <script src="github-calendar/github-calendar.min.js"></script>
+        <link rel="stylesheet" href="github-calendar/github-calendar.css">
         <h3 class="w3-padding-16 w3-text-light-grey">My Github</h3>
 
         <!-- Prepare a container for your calendar. -->
@@ -212,7 +227,7 @@
         <script>
             new GitHubCalendar(".calendar", "Naser Salameh");
         </script>
-
+        </div>
 
         <br><br>
         <h3 class="w3-padding-16 w3-text-light-grey">Yearly Projects Goal</h3>
@@ -222,12 +237,20 @@
 
         <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">3+</span><br>
+                <span class="w3-xlarge">3</span><br>
                 Open Projects
             </div>
             <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">5+</span><br>
+                <span class="w3-xlarge">7+</span><br>
                 Completed Projects
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">3</span><br>
+                Yearly Projects
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">5</span><br>
+                Yearly Projects Goal
             </div>
         </div>
 

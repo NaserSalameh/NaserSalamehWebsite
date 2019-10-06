@@ -4,7 +4,8 @@ body {
     background: #596778;
     color: #EEEEEE;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Segoe UI", sans-serif;
+
 }
 
 @media screen and (max-width: 700px) {
@@ -76,7 +77,7 @@ a {
     height: 50px;
     margin-left: 0px;
     position: absolute;
-    color: #838383;
+    color: #cccccc;
     text-align: center;
     line-height: 0px;
     -webkit-transform: translate3d(0, 0, 0);
@@ -228,7 +229,7 @@ a {
 }
 
 .menu-open:checked ~ .menu-item:nth-child(3) {
-    color: #cccccc;
+    color: #838383;
     transition-duration: 180ms;
     -webkit-transition-duration: 180ms;
     -webkit-transform: translate3d(0.08361px, -60.99997px, 0);
@@ -236,7 +237,7 @@ a {
 }
 
 .menu-open:checked ~ .menu-item:nth-child(4) {
-    color: #cccccc;
+    color: #838383;
     transition-duration: 280ms;
     -webkit-transition-duration: 280ms;
     -webkit-transform: translate3d(90.9466px, -52.47586px, 0);
@@ -244,7 +245,7 @@ a {
 }
 
 .menu-open:checked ~ .menu-item:nth-child(5) {
-    color: #cccccc;
+    color: #838383;
     transition-duration: 380ms;
     -webkit-transition-duration: 380ms;
     -webkit-transform: translate3d(90.9466px, 52.47586px, 0);
@@ -252,7 +253,7 @@ a {
 }
 
 .menu-open:checked ~ .menu-item:nth-child(6) {
-    color: #cccccc;
+    color: #838383;
     transition-duration: 480ms;
     -webkit-transition-duration: 480ms;
     -webkit-transform: translate3d(0.08361px, 104.99997px, 0);
@@ -260,7 +261,7 @@ a {
 }
 
 .menu-open:checked ~ .menu-item:nth-child(7) {
-    color: #cccccc;
+    color: #838383;
     transition-duration: 580ms;
     -webkit-transition-duration: 580ms;
     -webkit-transform: translate3d(-90.86291px, 52.62064px, 0);
@@ -268,7 +269,7 @@ a {
 }
 
 .menu-open:checked ~ .menu-item:nth-child(8) {
-    color: #cccccc;
+    color: #838383;
     transition-duration: 680ms;
     -webkit-transition-duration: 680ms;
     -webkit-transform: translate3d(-91.03006px, -52.33095px, 0);
@@ -276,7 +277,7 @@ a {
 }
 
 .menu-open:checked ~ .menu-item:nth-child(9) {
-    color: #cccccc;
+    color: #838383;
     transition-duration: 780ms;
     -webkit-transition-duration: 780ms;
     -webkit-transform: translate3d(-0.25084px, -104.9997px, 0);
