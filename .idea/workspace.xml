@@ -19,17 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/pop-menu/popUpStylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="-3519">
               <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../Haskell/Programming III/Exercise Sheet 1/Exercise 1.hs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -37,17 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="311">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/main-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3978">
-              <caret line="234" column="45" selection-start-line="234" selection-start-column="45" selection-end-line="234" selection-end-column="45" />
+            <state relative-caret-position="374">
+              <caret line="72" column="89" selection-start-line="72" selection-start-column="89" selection-end-line="72" selection-end-column="89" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,10 +55,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/code-window/styles/darcula.css">
+        <entry file="file://$PROJECT_DIR$/back-end/back-end-temp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="561">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -79,12 +82,12 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>w3-padding-16</find>
       <find>menu</find>
       <find>menu-op</find>
       <find>w3-wide</find>
@@ -114,6 +117,7 @@
       <find>head</find>
       <find>spa</find>
       <find>bar</find>
+      <find>modal</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -137,10 +141,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main/github-calendar/github-calendar.min.js" />
         <option value="$PROJECT_DIR$/main/code-window/styles/darcula.css" />
-        <option value="$PROJECT_DIR$/main/style.css" />
-        <option value="$PROJECT_DIR$/main/main-page.html" />
         <option value="$PROJECT_DIR$/loadButton/app.js" />
         <option value="$PROJECT_DIR$/main/pop-menu/popUpStylesheet.css" />
+        <option value="$PROJECT_DIR$/main/style.css" />
+        <option value="$PROJECT_DIR$/back-end/back-end-temp.html" />
+        <option value="$PROJECT_DIR$/main/main-page.html" />
       </list>
     </option>
   </component>
@@ -155,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,17 +171,17 @@
             <path>
               <item name="NaserSalamehWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="NaserSalamehWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="loadButton" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Haskell/Programming III/Exercise Sheet 1/Exercise 1.hs" />
@@ -185,15 +191,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\dark" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\main\php" />
+      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\main\files" />
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\main\github-calendar" />
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\loadButton" />
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite" />
-      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\dark" />
-      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\dark\codeScreen" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\dark" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,6 +215,9 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="back-end-temp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NaserSalamehWebsite/back-end/back-end-temp.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NaserSalamehWebsite/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -218,11 +227,13 @@
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.main-page.html" />
+      <item itemvalue="JavaScript Debug.back-end-temp.html" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.main-page.html" />
+        <item itemvalue="JavaScript Debug.back-end-temp.html" />
       </list>
     </recent_temporary>
   </component>
@@ -246,16 +257,19 @@
       <workItem from="1570537430605" duration="192000" />
       <workItem from="1570537668149" duration="146000" />
       <workItem from="1570538349861" duration="87000" />
+      <workItem from="1570728042036" duration="667000" />
+      <workItem from="1570797934591" duration="8105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52682000" />
+    <option name="totallyTimeSpent" value="61454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,13 +334,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loadButton/load-button.html" />
     <entry file="file://$PROJECT_DIR$/hold-Button.html" />
-    <entry file="file://$PROJECT_DIR$/loadButton/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loadButton/particles.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -344,7 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/form-to-email.php">
+    <entry file="file://$PROJECT_DIR$/main/php/form-to-email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
@@ -375,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-end-line="55" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/github-calendar/github-calendar.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -399,24 +399,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Haskell/Programming III/Exercise Sheet 1/Exercise 1.hs" />
+    <entry file="file://$PROJECT_DIR$/main/code-window/styles/darcula.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/pop-menu/popUpStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-3519">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="311">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadButton/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/back-end-temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/main-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3978">
-          <caret line="234" column="45" selection-start-line="234" selection-start-column="45" selection-end-line="234" selection-end-column="45" />
+        <state relative-caret-position="374">
+          <caret line="72" column="89" selection-start-line="72" selection-start-column="89" selection-end-line="72" selection-end-column="89" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -428,20 +460,6 @@
             <element signature="n#style#0;n#hr#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/code-window/styles/darcula.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Haskell/Programming III/Exercise Sheet 1/Exercise 1.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

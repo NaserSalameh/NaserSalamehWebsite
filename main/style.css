@@ -47,6 +47,21 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.naser-logo{
+    background-image: url(../images/grey-logo.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 35%;
+    left: 57.8%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
 .w3-bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}.w3-striped tbody tr:nth-child(even){background-color:#f1f1f1}
@@ -78,7 +93,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
 .w3-main,#main{transition:margin-left .4s}
 .w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
-.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.w3-modal-content{margin:auto;background-color: #222222;position:relative;padding:0;outline:0;width:600px}
 .w3-bar{width:100%;overflow:hidden}.w3-center .w3-bar{display:inline-block;width:auto}
 .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
