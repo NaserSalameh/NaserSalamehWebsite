@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/main-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="72" column="89" selection-start-line="72" selection-start-column="89" selection-end-line="72" selection-end-column="89" />
+            <state relative-caret-position="131">
+              <caret line="218" column="8" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,20 +47,7 @@
                 <element signature="n#style#0;n#hr#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/back-end-temp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="680">
               <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
@@ -138,18 +125,18 @@
         <option value="$PROJECT_DIR$/dark/main-page.html" />
         <option value="$PROJECT_DIR$/dark/style.css" />
         <option value="$PROJECT_DIR$/dark/pop-menu/popUpStylesheet.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main/github-calendar/github-calendar.min.js" />
         <option value="$PROJECT_DIR$/main/code-window/styles/darcula.css" />
         <option value="$PROJECT_DIR$/loadButton/app.js" />
         <option value="$PROJECT_DIR$/main/pop-menu/popUpStylesheet.css" />
-        <option value="$PROJECT_DIR$/main/style.css" />
         <option value="$PROJECT_DIR$/back-end/back-end-temp.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/main/style.css" />
         <option value="$PROJECT_DIR$/main/main-page.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="615" />
     <option name="y" value="135" />
     <option name="width" value="980" />
@@ -195,11 +182,11 @@
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\dark" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite" />
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\main\php" />
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\main\files" />
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\main\github-calendar" />
       <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite\loadButton" />
-      <recent name="D:\Users\Naser Salameh\OneDrive - University of Southampton\Coding Workspaces\Java\eclipse-workspace\NaserSalamehWebsite" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,12 +245,12 @@
       <workItem from="1570537668149" duration="146000" />
       <workItem from="1570538349861" duration="87000" />
       <workItem from="1570728042036" duration="667000" />
-      <workItem from="1570797934591" duration="8105000" />
+      <workItem from="1570797934591" duration="9356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61454000" />
+    <option name="totallyTimeSpent" value="62705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -305,7 +292,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dark/scripts/github-query.js" />
-    <entry file="file://$PROJECT_DIR$/loadButton/particles.min.js">
+    <entry file="file://$PROJECT_DIR$/load-button/particles.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -334,14 +321,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loadButton/load-button.html" />
     <entry file="file://$PROJECT_DIR$/hold-Button.html" />
-    <entry file="file://$PROJECT_DIR$/loadButton/particles.json">
+    <entry file="file://$PROJECT_DIR$/load-button/particles.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/particles.js">
+    <entry file="file://$PROJECT_DIR$/load-button/particles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="227" column="2" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
@@ -389,7 +376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/app.js">
+    <entry file="file://$PROJECT_DIR$/load-button/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
@@ -414,14 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadButton/style.css">
+    <entry file="file://$PROJECT_DIR$/load-button/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
@@ -430,8 +410,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="680">
           <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -447,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/main-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="72" column="89" selection-start-line="72" selection-start-column="89" selection-end-line="72" selection-end-column="89" />
+        <state relative-caret-position="131">
+          <caret line="218" column="8" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -457,7 +444,6 @@
             <element signature="n#style#0;n#hr#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
